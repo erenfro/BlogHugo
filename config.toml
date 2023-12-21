@@ -1,6 +1,6 @@
-baseURL = 'https://blog.virgil.rodeo/'
+baseURL = 'https://blog.deckersheaven.com/'
 languageCode = 'en-us'
-title = 'Self-Host Blog'
+title = 'Self-Hosted Blog'
 theme = 'Steak'
 
 [params]

@@ -1,6 +1,6 @@
 # BlogHugo
 
-![GitHub Workflow Status](https://github.com/euvaz/bloghugo/actions/workflows/on-merge.yaml/badge.svg)
+![GitHub Workflow Status](https://github.com/erenfro/bloghugo/actions/workflows/on-merge.yaml/badge.svg)
 ![Hugo Version](https://img.shields.io/badge/Hugo-v0.101.0-ee1289)
 ![Nginx Version](https://img.shields.io/badge/Nginx-1.25.3-228b22)
 

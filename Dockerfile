@@ -4,7 +4,7 @@
 FROM alpine:3.18.4 AS build-stage
 LABEL \
     org.opencontainers.image.title="BlogHugo" \
-    org.opencontainers.image.source="https://github.com/Euvaz/BlogHugo"
+    org.opencontainers.image.source="https://github.com/erenfro/BlogHugo"
 
 RUN apk add --no-cache hugo
 
