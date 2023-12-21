@@ -22,7 +22,7 @@ jobs:
         uses: ./.github/actions/docker-image
         with:
           token: "${{ secrets.GITHUB_TOKEN }}"
-          latest: false
+          latest: true
 
       - name: Delete old containers
         uses: actions/delete-package-versions@v4
