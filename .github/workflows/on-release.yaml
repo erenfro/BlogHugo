@@ -21,7 +21,7 @@ jobs:
           latest: true
 
       - name: Delete old containers
-        uses: actions/delete-package-versions@0d39a63126868f5eefaa47169615edd3c0f61e20 # v4
+        uses: actions/delete-package-versions@e5bc658cc4c965c472efe991f8beea3981499c55 # v5
         with:
           package-name: ${{ env.PACKAGE_NAME }}
           package-type: 'container'
