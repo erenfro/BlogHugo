@@ -14,7 +14,7 @@ COPY . .
 RUN hugo
 
 # Deploy to slim image
-FROM nginx:1.25.3-alpine AS build-release-stage
+FROM nginx:1.27.0-alpine AS build-release-stage
 
 WORKDIR /usr/share/nginx/html
 
